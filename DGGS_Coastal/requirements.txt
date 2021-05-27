@@ -1,0 +1,4 @@
+geopandas
+matplotlib
+descartes
+rtree
