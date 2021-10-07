@@ -1,4 +1,12 @@
+## Coastal Ecological Indicators
+
+This repository holds the data and code for projects related to US EPA's Office of Research and Development's effort to integrate coastal ecological condition data from multiple sources for use in assessment at unmonitored locations at multiple spatial scales (e.g., national, regional, and state). As work progresses, we will periodically update this space with new results and models. The projects contained are as follows:
+
+##DGGS_Coastal
+**Discrete Global Grid Systems as scalable geospatial frameworks for characterizing coastal environments**
+*Data portals and services have increased coastal water quality data availability and accessibility. However, tools to process this data are limited – geospatial frameworks at the land-sea interface are either adapted from open-water frameworks or extended from watershed frameworks. This study explores use of a geospatial framework based on hexagons from a Discrete Global Grid System (DGGS) in a coastal area. Two DGGS implementations are explored, dggridR and H3. The geospatial frameworks are compared based on their ability to aggregate data to scales from existing frameworks, integrate data across frameworks, and connect flows across the land-sea interface. dggridR was simpler with more flexibility to match scales and use smaller units. H3 was more performant, identifying neighbors and moving between scales more efficiently. Point, line and grid data were aggregated to H3 units to test the implementation's ability to model and visualize coastal data. H3 performed these additional tasks well.
+
+Bousquin, J., 2021. Discrete Global Grid Systems as scalable geospatial frameworks for characterizing coastal environments, Environmental Modelling & Software, 105210, ISSN 1364-8152, https://doi.org/10.1016/j.envsoft.2021.105210.
+
 ## EPA Disclaimer
 The United States Environmental Protection Agency (EPA) GitHub project code is provided on an "as is" basis and the user assumes responsibility for its use. EPA has relinquished control of the information and no longer has responsibility to protect the integrity , confidentiality, or availability of the information. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by EPA. The EPA seal and logo shall not be used in any manner to imply endorsement of any commercial product or activity by EPA or the United States Government.
-
-### License
